@@ -1,9 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+// components
+// import 해오기,,!
+// css
+import "todomvc-app-css/index.css";
 
 function App() {
   return (
-    <div></div>
+    <>
+      <Header></Header>
+      <Content></Content>
+      <Footer></Footer>
+    </>
   );
 }
 
